@@ -10,22 +10,36 @@
 }
 
 /* nav */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0; 
+    background-color: white;
+}
 nav{
     display: flex;
     justify-content: space-between;
     font-size: 12px;
     padding: 15px 5px;   
-    width: 100%;   
+    width: 100%;
+    position: relative;   
 }
 
 .nav-sx, .nav-dx{
     flex-basis: 45%;      
 }
 
+.nav-dx{
+    position: absolute;
+    right: 5px;
+    top: 25%;
+}
+
 
 .nav-sx img{
-    width: 15%;
-         
+    width: 12%;       
 }
 
 /* pulsanti inizio */
@@ -45,7 +59,7 @@ nav{
     background-color: rgb(144, 205, 216);
 }
 .titolo1{
-    padding-top: 30px;
+    padding-top: 8%;
     margin: auto;
     width: 60%;
     font-size: 30px; 
@@ -154,23 +168,30 @@ hr{
     margin: 10% 0;
 }
 
-.box2{
-    flex-basis: 70%;
+.box2e{
+    flex-basis: 60%;
 }
 
-.box2 h3 , .box2 p , .box5 h3, .img-business h3, 
+.box2e h3 , .box2e p , .box5 h3, .img-business h3, 
 .dropbox{
     margin: 10px 0 ;
+}
+
+.box3{
+    margin: 20px 0 0 0 ;
 }
 
 
 /* section3 dropbox */
 .box4{
     flex-basis: 60%;
+    margin: 40px 0;
+    
 }
 
 .box5{
     flex-basis: 37% ;
+    margin: 40px 0;
     
 }
 
