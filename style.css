@@ -93,6 +93,7 @@ input {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 20px;
     
 }
 
@@ -130,6 +131,43 @@ hr{
 .punti{
     margin: 10px 0;
 }
+
+.sez-box, .section3{
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    flex-basis: 70%;
+}
+
+.box2 h3 , .box2 p , .box5 h3{
+    margin: 10px 0 ;
+}
+
+.box4{
+    flex-basis: 60%;
+}
+
+.box5{
+    flex-basis: 37% ;
+    
+}
+
+.box4 img{
+    width: 80%;
+}
+
+.box5 span{
+    border: solid 1px grey;
+    padding: 7px ;
+    
+}
+
+.box5 p {
+    margin: 20px 0;
+}
+
+
 
 
 
