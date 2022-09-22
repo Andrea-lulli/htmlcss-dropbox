@@ -9,6 +9,7 @@
     width: 50%;   
 }
 
+/* nav */
 nav{
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,7 @@ nav{
          
 }
 
+/* pulsanti inizio */
 .inizia{
     background-color: blue;
     color: white;
@@ -37,6 +39,8 @@ nav{
 .nav-dx span, .nav-sx span{
     margin: 0 5px;
 }
+
+/* section jumbotron */
 .jumbotron{
     background-color: rgb(144, 205, 216);
 }
@@ -54,8 +58,6 @@ nav{
     justify-content: space-between;
 }
 
-
-
 .box1{
     flex-basis: 33%;
 }
@@ -63,6 +65,7 @@ nav{
 .box2{
     flex-basis: 65%;
 }
+
 .box2 img{
     width: 100%;
 }
@@ -70,11 +73,14 @@ nav{
 .inizia2{
     margin: 10px 0;
 }
+
 .freccia{
     font-size: 35px;
     text-align: center;
     margin-top: 10px;
 }
+
+/* section trova piano business */
 .titolo2{
     text-align: left;
     margin: 40px 0 0 0;
@@ -92,12 +98,13 @@ input {
     margin-left:10px ;
 }
 
+
+/* section card abbonamento */
 .section-card{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 .card{
@@ -111,8 +118,7 @@ svg{
 }
 
 .tipo-abb{
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .abb-prezzo h3{
@@ -126,6 +132,7 @@ svg{
 .acquista-ora{
     margin: 20px 0;
 }
+
 hr{
     width: 30%;
     margin: 10px 0;
@@ -135,15 +142,16 @@ hr{
     margin: 10px 0;
 }
 
+/* section2 team e enterprise */
 .sez-box, .section3, .sez-img{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .sez-img{
     margin: 10% 0;
 }
+
 .box2{
     flex-basis: 70%;
 }
@@ -153,6 +161,8 @@ hr{
     margin: 10px 0 ;
 }
 
+
+/* section3 dropbox */
 .box4{
     flex-basis: 60%;
 }
@@ -176,6 +186,8 @@ hr{
     margin: 20px 0;
 }
 
+
+/* section4 drobox business */
 .img-business{
     flex-basis: 32%;
 }
