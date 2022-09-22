@@ -92,10 +92,14 @@ input {
 .section-card{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    
 }
 
 .card{
     flex-basis: 31%;
+    border: 1px solid grey;
+    padding: 2% 2%;
 }
 
 svg{
@@ -104,7 +108,7 @@ svg{
 
 .tipo-abb{
     text-align: center;
-    border:  1px solid grey;
+    
 }
 
 .abb-prezzo h3{
@@ -114,6 +118,20 @@ svg{
 .tipi{
     margin: 20px 0;
 }
+
+.acquista-ora{
+    margin: 20px 0;
+}
+hr{
+    width: 30%;
+    margin: 10px 0;
+}
+
+.punti{
+    margin: 10px 0;
+}
+
+
 
 
 
