@@ -60,10 +60,12 @@ nav{
 
 .box1{
     flex-basis: 33%;
+    margin: 25px 0 0 0;
 }
 
 .box2{
     flex-basis: 65%;
+    margin: 25px 0 0 0;
 }
 
 .box2 img{
