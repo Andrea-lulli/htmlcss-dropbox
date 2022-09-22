@@ -54,6 +54,8 @@ nav{
     justify-content: space-between;
 }
 
+
+
 .box1{
     flex-basis: 33%;
 }
@@ -75,6 +77,7 @@ nav{
 }
 .titolo2{
     text-align: left;
+    margin: 40px 0 0 0;
 }
 
 input {
@@ -135,12 +138,18 @@ hr{
 .sez-box, .section3, .sez-img{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.sez-img{
+    margin: 10% 0;
 }
 .box2{
     flex-basis: 70%;
 }
 
-.box2 h3 , .box2 p , .box5 h3, .img-business h3, .sez-img{
+.box2 h3 , .box2 p , .box5 h3, .img-business h3, 
+.dropbox{
     margin: 10px 0 ;
 }
 
