@@ -132,7 +132,7 @@ hr{
     margin: 10px 0;
 }
 
-.sez-box, .section3{
+.sez-box, .section3, .sez-img{
     display: flex;
     justify-content: space-between;
 }
@@ -140,7 +140,7 @@ hr{
     flex-basis: 70%;
 }
 
-.box2 h3 , .box2 p , .box5 h3{
+.box2 h3 , .box2 p , .box5 h3, .img-business h3, .sez-img{
     margin: 10px 0 ;
 }
 
@@ -165,6 +165,14 @@ hr{
 
 .box5 p {
     margin: 20px 0;
+}
+
+.img-business{
+    flex-basis: 32%;
+}
+
+.img-business img{
+    width: 100%;
 }
 
 
