@@ -2,10 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 .conteiner{
     margin: auto;
-    width: 80%;   
+    width: 50%;   
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 15px 5px;   
+    width: 100%;   
+}
+
+.nav-sx, .nav-dx{
+    flex-basis: 45%;      
+}
+
+
+.nav-sx img{
+    width: 15%;
+         
+}
+
+.inizia{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.nav-dx span, .nav-sx span{
+    margin: 0 5px;
+}
+.jumbotron{
+    background-color: rgb(144, 205, 216);
+}
+.titolo1{
+    padding-top: 30px;
+    margin: auto;
+    width: 60%;
+    font-size: 30px; 
+}
+
+.jumbotron-bottom{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    flex-basis: 33%;
+}
+
+.box2{
+    flex-basis: 65%;
+}
+.box2 img{
+    width: 100%;
+}
+
+.inizia2{
+    margin: 10px 0;
+}
+.freccia{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+.titolo2{
+    text-align: left;
+}
+
+input {
+    display: inline;
+}
+
+.ft{
+    display: flex;
+    margin-top: 30px;
+}
+.ft-annuale{
+    margin-left:10px ;
+}
+
+.section-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    flex-basis: 31%;
+}
+
+svg{
+    width: 10px;
+}
+
+.tipo-abb{
+    text-align: center;
+    border:  1px solid grey;
+}
+
+.abb-prezzo h3{
+    margin: 10px 0;
+}
+
+
+
