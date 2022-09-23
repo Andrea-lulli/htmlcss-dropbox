@@ -382,6 +382,7 @@ hr{
     padding: 20px 0;
 }
 
+/* Accordion -  section8*/
 .accordion {
     background-color: #eee;
     color: black;
@@ -395,9 +396,7 @@ hr{
     transition: 0.4s;
     border-top: solid 1px grey;
   }
-  
-  
-  
+
   .accordion:after {
     content: '\2228';
     font-weight: bold;
