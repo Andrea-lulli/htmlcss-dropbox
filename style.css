@@ -158,7 +158,13 @@ input {
 
 .tipo-abb{
     text-align: center; 
-    border-bottom: 1px solid lightgrey;  
+    padding: 1% 0%;    
+}
+
+.team1{
+    background-color:  lightgrey;
+    width: 110%;
+    text-align: center;
 }
 
 .abb-prezzo h3{
@@ -194,6 +200,10 @@ hr{
     justify-content: space-between;   
 }
 
+.section2{
+    padding: 0% 2% 2% 2%;
+    border: 1px solid lightgray;
+}
 
 
 .sez-img{
