@@ -14,6 +14,11 @@
     width: 55%;   
 }
 
+.conteiner1{
+    margin: auto;
+    width: 100%;   
+}
+
 .border{
     border: 1px solid lightgray;
     padding: 2% 2%;
@@ -254,6 +259,45 @@ hr{
 
 .img-business img{
     width: 100%;
+    
+}
+
+/* section 5 */
+.section5 h2{
+    margin: 50px 0;
+    width: 60%;
+}
+
+/* section6 designit */
+.section6{
+    height: calc(100vw/3);
+    display: flex;
+}
+
+.box-6, .box-7, .box-8{
+    flex-basis: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.box-img{
+    flex-basis: 50%;
+    height: 50%;
+    position: relative;
+    
+    
+    
+}
+
+.box-img img{
+    width: 60%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
 }
 
 
