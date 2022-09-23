@@ -373,6 +373,34 @@ hr{
 
 /* section8 domande frequenti*/
 
+.section8{
+    margin: 30px 0;
+    height: 250px;
+}
+
+.questions{
+    position: relative;
+    border-top: solid grey 1px;
+    padding: 20px 0;
+}
+
+.quest-2{
+    display: none;
+    position: absolute;
+    top: 0%
+}
+
+.questions:hover .quest-1{
+    display: none;
+}
+
+.questions:hover .quest-2{
+    display: block;}
+
+.quest-1 h3::after{
+    
+}  
+
 
 
 
