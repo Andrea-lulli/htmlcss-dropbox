@@ -9,7 +9,7 @@
 
 .conteiner{
     margin: auto;
-    width: 50%;   
+    width: 55%;   
 }
 
 .border{
@@ -180,6 +180,8 @@ hr{
 
 .punti{
     margin: 10px 0;
+    fill: rgb(17, 112, 245);
+
 }
 
 /* section2 team e enterprise */
