@@ -181,7 +181,11 @@ hr{
 .punti{
     margin: 10px 0;
     fill: rgb(17, 112, 245);
+}
 
+.contattaci{
+    text-align: center;
+    width: 80%;
 }
 
 /* section2 team e enterprise */
