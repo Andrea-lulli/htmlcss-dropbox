@@ -15,7 +15,7 @@
 }
 
 .conteiner1{
-    margin: auto;
+    
     width: 100%;   
 }
 
@@ -268,37 +268,114 @@ hr{
     width: 60%;
 }
 
+
 /* section6 designit */
 .section6{
     height: calc(100vw/3);
     display: flex;
+    margin: 80px 0 0 0 ;
 }
 
 .box-6, .box-7, .box-8{
     flex-basis: calc(100%/3);
     display: flex;
     flex-wrap: wrap;
-    
-    
-    
+    position: relative;
 }
 
 .box-img{
     flex-basis: 50%;
     height: 50%;
-    position: relative;
-    
-    
-    
+    position: relative;   
 }
 
 .box-img img{
     width: 60%;
     position: absolute;
-    top: 25%;
-    left: 25%;
-
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
+
+.designit img{
+    width: 55%;
+}
+
+.testo-designit{
+    font-size: 12px;
+    margin: 30px 0;
+}
+
+.designit{
+    width: 70%;
+    margin: 10% 10%;
+}
+
+.box-green{
+    background-color: rgb(77, 195, 115);
+}
+
+.box-red{
+    background-color: rgb(252, 10, 10);
+}
+
+.box-blue{
+    background-color: rgb(20, 20, 136);
+}
+
+.box-yellow{
+    background-color: yellow;
+}
+
+.box-aquamarine{
+    background-color: aquamarine;
+}
+
+.box-lightseagreen{
+    background-color: lightseagreen;
+}
+
+.box-brown{
+    background-color: brown;
+}
+
+/* section7 */
+
+.section7{
+    background-color:rgb(135, 197, 218) ;
+    padding: 100px 0;
+}
+
+.dropbox-business{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-9{
+    flex-basis: 50%;
+}
+
+.box-10{
+    flex-basis: 37%;
+}
+
+.inizia-white{
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    margin: 0 10px;
+}
+
+/* section8 */
+
+
+
+
 
 
 
