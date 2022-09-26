@@ -14,8 +14,7 @@
     width: 55%;   
 }
 
-.conteiner1{
-    
+.conteiner1{   
     width: 100%;   
 }
 
@@ -428,6 +427,11 @@ hr{
   }
 
   .section9{
+    margin: auto;
+    width: 60%; 
+  }
+
+  .conteiner-liste{
     display: flex;
     justify-content: space-between;
   }
@@ -449,7 +453,24 @@ hr{
   .lista{
     margin: 10px 0;
     font-size: 14px;
+    color: rgb(210, 195, 195);
   }
+
+  #hr-footer{
+    width: 10%;
+    margin: 20px 0;
+  }
+
+  .svg-footer{
+    width: 12px;
+    fill: rgb(210, 195, 195);
+  }
+
+  .lingua{
+    color: rgb(210, 195, 195);
+    font-size: 10px;
+  }
+
 
 
 
