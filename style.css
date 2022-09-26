@@ -423,7 +423,38 @@ hr{
   }
 
   /* footer */
+
+  footer{
+    background-color: black;
+    padding: 40px 0;
+  }
+
+  .section9{
+    display: flex;
+    justify-content: space-between;
+  }
   
+  .cl-footer{
+    flex-basis: 19%;
+    
+    color: white;
+  }
+
+  .titolo{
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .lista{
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+
 
 
 
