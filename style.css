@@ -314,7 +314,8 @@ hr{
 }
 
 .box-green{
-    background-color: rgb(77, 195, 115);
+    background-color: rgb(69, 184, 105);
+    border: solid 7px rgb(153, 203, 151);
 }
 
 .box-red{
