@@ -398,20 +398,19 @@ hr{
   }
 
   .active, .accordion:hover {
-    background-color: #ccc;}
+    background-color: #ccc;
+}
 
   .accordion:after {
     content: '\2228';
     font-weight: bold;
     float: right;
     margin-left: 5px;
-    color: #777;
-    
+    color: #777;    
   }
   
   .active:after {
-    content: "\2227";
-    
+    content: "\2227";    
   }
   
   .panel {
@@ -423,7 +422,6 @@ hr{
   }
 
   /* footer */
-
   footer{
     background-color: black;
     padding: 40px 0;
@@ -435,8 +433,7 @@ hr{
   }
   
   .cl-footer{
-    flex-basis: 19%;
-    
+    flex-basis: 19%;   
     color: white;
   }
 
