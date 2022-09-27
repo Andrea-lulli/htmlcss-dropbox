@@ -44,22 +44,25 @@ nav{
     font-size: 12px;
     padding: 15px 5px;   
     width: 100%;
-    position: relative;   
+    position: relative;
+    align-items: center;
+       
 }
 
 .nav-sx, .nav-dx{
-    flex-basis: 45%;      
+    flex-basis: 45%;
+    display: flex;      
+    align-items: center;
 }
 
 .nav-dx{
     position: absolute;
-    right: 5px;
-    top: 25%;
+    right: 10px;
 }
 
-
 .nav-sx img{
-    width: 12%;       
+    width: 12%;
+    background-size: contain;       
 }
 
 .nav-dx span, .nav-sx span{
@@ -78,41 +81,40 @@ nav{
 
 /* section jumbotron */
 .jumbotron{
-    background-color: rgb(135, 197, 218);
-    
+    background-color: rgb(135, 197, 218);    
 }
 .titolo1{
     padding-top: 8%;
     margin: auto;
     width: 60%;
-    font-size: 35px; 
+    font-size: 200%;
 }
 
 .jumbotron-bottom{
     margin: auto;
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .box1{
     flex-basis: 38%;
     margin: 15px 0 0 0;
     font-size: 12px;
-    
+    flex-wrap: wrap;
+    position: relative;      
 }
 
 .box2{
     flex-basis: 60%;
-    margin: 15px 0 0 0;
-    position: relative;    
+    margin: 15px 0 0 0;      
 }
 
 .box2 img{
-    width: 110%;
-    position: absolute;
-    top: 0;   
-    background-size: contain;
+    height: 110%;
+    background-size: cover;
+    width: 100%;
+    
 }
 
 .inizia2{
@@ -121,8 +123,8 @@ nav{
 
 .box1 svg{
     width: 30px;
-    text-align: center;
-    margin-top: 50px;
+    bottom: 0;
+    position: absolute;
 }
 
 /* section trova piano business */
